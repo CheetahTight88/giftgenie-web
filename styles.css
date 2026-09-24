@@ -221,9 +221,23 @@ a:hover {
   font-size: 0.88rem;
 }
 
-/* The nav CTA is already inside a link list of its own; keep it tidy. */
+/* The nav CTA is an <a> inside .nav-links. That link rule (.nav-links a,
+   specificity 0-1-1) out-ranks the .btn / .btn-primary / .btn-small classes
+   (0-1-0), so without this block the pill silently inherits the muted link
+   colour and the 4px 0 link padding: grey text on purple, no horizontal
+   padding. Re-assert the button treatment here, where the selector is strong
+   enough to win. Keep the colour white — the nav CTA sits on --brand. */
 .nav-links .btn {
   text-decoration: none;
+  color: #fff;
+  font-weight: 600; /* .nav-links a sets 500 and would otherwise leave the nav CTA lighter than every other button */
+  padding: 8px 16px;
+}
+
+/* .nav-links a:hover (0-1-2) would otherwise repaint the label --ink, which is
+   near-black on purple. This selector (0-3-0) wins. */
+.nav-links .btn-primary:hover {
+  color: #fff;
 }
 
 /* --- hero ---------------------------------------------------------------- */
