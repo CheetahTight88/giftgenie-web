@@ -1,0 +1,40 @@
+# =============================================================================
+# Giftgenie site - .gitignore
+# =============================================================================
+# This repository holds only the static site, so there is very little to ignore.
+# The site has no build step and no dependencies.
+# =============================================================================
+
+# --- Secrets -----------------------------------------------------------------
+# Nothing here should ever need an environment file. If one appears, stop.
+.env
+.env.*
+!*.env.example
+
+# --- Deployment tooling ------------------------------------------------------
+# Created by `vercel link` / `vercel deploy` locally; not part of the source.
+.vercel/
+.netlify/
+
+# --- Caches / temp -----------------------------------------------------------
+.cache/
+.tmp/
+temp/
+tmp/
+
+# --- Editors and IDEs --------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Operating system --------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
