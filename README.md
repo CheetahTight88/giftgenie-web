@@ -172,9 +172,33 @@ is genuinely true:
 - no testimonials or logos you do not have written permission to use;
 - no claim that retailer integrations are live.
 
-The roadmap section is labelled **In development**, and the *Where we are today*
-section states plainly that there are no live retailer integrations and no
-claimed partnerships. That honesty helps manual review rather than hurting it.
+The roadmap section is labelled **In development**, and the landing page presents
+the current stage as a private beta with curated product coverage that is
+expanding. No partnerships, live integrations, live pricing or guaranteed
+accuracy are claimed anywhere.
+
+### Copy approach: confident, not apologetic
+
+Public copy should read as a real product. Keep it specific and confident rather
+than listing what is not ready yet — reviewers read "there are no live retailer
+integrations yet" as a site that is not commercially operational.
+
+The underlying facts must stay true, but they do not need to be volunteered.
+Avoid these phrasings on the public pages:
+
+- "no live retailer integrations"
+- "no affiliate links are active"
+- "not currently partnered with"
+- "building in the open"
+- "today we focus on"
+- "experimental", "placeholder" or pre-alpha framing
+
+Those points remain documented here, where reviewers of the code can see them,
+rather than on the marketing pages.
+
+The **affiliate disclosure stays on both pages**. It is a standard, forward-looking
+statement ("may earn commission"), so it does not contradict a site that has no
+active affiliate links yet — do not add a line asserting that links are inactive.
 
 ### 3. Keep the privacy policy true
 
